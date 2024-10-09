@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 from PIL import Image
 from transformers import AutoModelForCausalLM, AutoProcessor, GenerationConfig
 import torch
-
+import time
 
 app = Flask(__name__)
 
@@ -57,6 +57,10 @@ def generate_text():
         )
         inputs = {k: v.to(model.device).unsqueeze(0) for k, v in inputs.items()}
 
+        model.to(dtype=torch.bfloat16)
+        inputs["images"] = inputs["images"].to(torch.bfloat16)
+
+        generation_start_time = time.time()
         # Generate the output from the model
         output = model.generate_from_batch(
             inputs,
@@ -66,10 +70,11 @@ def generate_text():
 
         generated_tokens = output[0, inputs['input_ids'].size(1):]
         generated_text = processor.tokenizer.decode(generated_tokens, skip_special_tokens=True)
-
+        generation_time = time.time() - generation_start_time
 
         result = {
-            "generated_text": generated_text
+            "generated_text": generated_text,
+            "generation_time_ms": round(generation_time * 1000, 2),
         }
 
         return jsonify(result)
