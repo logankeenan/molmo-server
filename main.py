@@ -60,21 +60,30 @@ def generate_text():
         model.to(dtype=torch.bfloat16)
         inputs["images"] = inputs["images"].to(torch.bfloat16)
 
+        prompt_input_ids = processor.tokenizer(prompt, return_tensors="pt")["input_ids"].to(model.device)
+        prompt_tokens = prompt_input_ids.size(1)
+
         generation_start_time = time.time()
         # Generate the output from the model
-        output = model.generate_from_batch(
-            inputs,
-            GenerationConfig(max_new_tokens=200, stop_strings="<|endoftext|>"),
-            tokenizer=processor.tokenizer
-        )
+        with torch.autocast(device_type="cuda", enabled=True, dtype=torch.bfloat16):
+            output = model.generate_from_batch(
+                inputs,
+                GenerationConfig(max_new_tokens=200, stop_strings="<|endoftext|>"),
+                tokenizer=processor.tokenizer
+            )
 
         generated_tokens = output[0, inputs['input_ids'].size(1):]
         generated_text = processor.tokenizer.decode(generated_tokens, skip_special_tokens=True)
         generation_time = time.time() - generation_start_time
 
+        num_generated_tokens = len(generated_tokens)
+        total_tokens = prompt_tokens + num_generated_tokens
+        tokens_per_second = total_tokens / generation_time if generation_time > 0 else 0
+
         result = {
             "generated_text": generated_text,
             "generation_time_ms": round(generation_time * 1000, 2),
+            "tokens_per_second": round(tokens_per_second, 2)
         }
 
         return jsonify(result)
