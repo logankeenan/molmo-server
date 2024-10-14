@@ -1,0 +1,167 @@
+% test-image_60.png
+zsh: command not found: test-image_60.png
+logankeenan@Logans-MacBook-Pro-2.local /Users/logankeenan/Developer/molmo-server [main]
+% . ./curl-test.sh
+{"generated_text":" 67.7, 56.8","generation_time_ms":1571.63,"tokens_per_second":15.91}
+DNS Lookup Time: 0.002393 ms
+Time to Connect: 0.022674 ms
+Time to Start Transfer: 2.445969 ms
+Total Time: 2.446520 ms
+{"generated_text":" 67.7, 56.8","generation_time_ms":708.1,"tokens_per_second":35.31}
+DNS Lookup Time: 0.002061 ms
+Time to Connect: 0.021529 ms
+Time to Start Transfer: 1.597466 ms
+Total Time: 1.597569 ms
+{"generated_text":" 67.7, 56.8","generation_time_ms":707.84,"tokens_per_second":35.32}
+DNS Lookup Time: 0.002106 ms
+Time to Connect: 0.020526 ms
+Time to Start Transfer: 1.408332 ms
+Total Time: 1.408519 ms
+{"generated_text":" 67.7, 56.8","generation_time_ms":708.53,"tokens_per_second":35.28}
+DNS Lookup Time: 0.002255 ms
+Time to Connect: 0.020711 ms
+Time to Start Transfer: 1.342510 ms
+Total Time: 1.342714 ms
+{"generated_text":" 67.7, 56.8","generation_time_ms":725.82,"tokens_per_second":34.44}
+DNS Lookup Time: 0.002224 ms
+Time to Connect: 0.022562 ms
+Time to Start Transfer: 1.467196 ms
+Total Time: 1.467403 ms
+{"generated_text":" 67.7, 56.8","generation_time_ms":704.92,"tokens_per_second":35.47}
+DNS Lookup Time: 0.002098 ms
+Time to Connect: 0.021018 ms
+Time to Start Transfer: 1.300153 ms
+Total Time: 1.300344 ms
+{"generated_text":" 67.7, 56.8","generation_time_ms":716.84,"tokens_per_second":34.88}
+DNS Lookup Time: 0.002169 ms
+Time to Connect: 0.062790 ms
+Time to Start Transfer: 1.504872 ms
+Total Time: 1.505052 ms
+{"generated_text":" 67.7, 56.8","generation_time_ms":710.58,"tokens_per_second":35.18}
+DNS Lookup Time: 0.002227 ms
+Time to Connect: 0.019919 ms
+Time to Start Transfer: 1.271765 ms
+Total Time: 1.271973 ms
+{"generated_text":" 67.7, 56.8","generation_time_ms":706.47,"tokens_per_second":35.39}
+DNS Lookup Time: 0.002149 ms
+Time to Connect: 0.022429 ms
+Time to Start Transfer: 1.632300 ms
+Total Time: 1.632368 ms
+{"generated_text":" 67.7, 56.8","generation_time_ms":737.72,"tokens_per_second":33.89}
+DNS Lookup Time: 0.002305 ms
+Time to Connect: 0.020763 ms
+Time to Start Transfer: 1.714580 ms
+Total Time: 1.714779 ms
+logankeenan@Logans-MacBook-Pro-2.local /Users/logankeenan/Developer/molmo-server [main]
+% test-image_original.png
+zsh: command not found: test-image_original.png
+logankeenan@Logans-MacBook-Pro-2.local /Users/logankeenan/Developer/molmo-server [main]
+% test-image_original.png
+zsh: command not found: test-image_original.png
+logankeenan@Logans-MacBook-Pro-2.local /Users/logankeenan/Developer/molmo-server [main]
+% . ./curl-test.sh
+{"generated_text":" 68.6, 57.0","generation_time_ms":894.24,"tokens_per_second":27.96}
+DNS Lookup Time: 0.061686 ms
+Time to Connect: 0.079518 ms
+Time to Start Transfer: 1.766057 ms
+Total Time: 1.766492 ms
+{"generated_text":" 68.6, 57.0","generation_time_ms":875.5,"tokens_per_second":28.56}
+DNS Lookup Time: 0.002254 ms
+Time to Connect: 0.019517 ms
+Time to Start Transfer: 1.572774 ms
+Total Time: 1.572925 ms
+{"generated_text":" 68.6, 57.0","generation_time_ms":891.06,"tokens_per_second":28.06}
+DNS Lookup Time: 0.002041 ms
+Time to Connect: 0.021527 ms
+Time to Start Transfer: 1.563178 ms
+Total Time: 1.563390 ms
+{"generated_text":" 68.6, 57.0","generation_time_ms":876.77,"tokens_per_second":28.51}
+DNS Lookup Time: 0.002043 ms
+Time to Connect: 0.022040 ms
+Time to Start Transfer: 1.711246 ms
+Total Time: 1.711392 ms
+{"generated_text":" 68.6, 57.0","generation_time_ms":896.94,"tokens_per_second":27.87}
+DNS Lookup Time: 0.002079 ms
+Time to Connect: 0.020168 ms
+Time to Start Transfer: 1.881359 ms
+Total Time: 1.881426 ms
+{"generated_text":" 68.6, 57.0","generation_time_ms":912.04,"tokens_per_second":27.41}
+DNS Lookup Time: 0.002211 ms
+Time to Connect: 0.021038 ms
+Time to Start Transfer: 1.687441 ms
+Total Time: 1.687606 ms
+{"generated_text":" 68.6, 57.0","generation_time_ms":895.26,"tokens_per_second":27.92}
+DNS Lookup Time: 0.002205 ms
+Time to Connect: 0.021802 ms
+Time to Start Transfer: 1.568592 ms
+Total Time: 1.568868 ms
+{"generated_text":" 68.6, 57.0","generation_time_ms":895.58,"tokens_per_second":27.91}
+DNS Lookup Time: 0.002153 ms
+Time to Connect: 0.022183 ms
+Time to Start Transfer: 1.591690 ms
+Total Time: 1.591844 ms
+{"generated_text":" 68.6, 57.0","generation_time_ms":856.38,"tokens_per_second":29.19}
+DNS Lookup Time: 0.002132 ms
+Time to Connect: 0.019467 ms
+Time to Start Transfer: 1.556024 ms
+Total Time: 1.556178 ms
+{"generated_text":" 68.6, 57.0","generation_time_ms":892.31,"tokens_per_second":28.02}
+DNS Lookup Time: 0.002150 ms
+Time to Connect: 0.021327 ms
+Time to Start Transfer: 1.742211 ms
+Total Time: 1.742399 ms
+logankeenan@Logans-MacBook-Pro-2.local /Users/logankeenan/Developer/molmo-server [main]
+% . ./curl-test.sh
+{"generated_text":" 68.1, 56.8","generation_time_ms":868.75,"tokens_per_second":28.78}
+DNS Lookup Time: 0.002129 ms
+Time to Connect: 0.027127 ms
+Time to Start Transfer: 1.614857 ms
+Total Time: 1.615057 ms
+{"generated_text":" 68.1, 56.8","generation_time_ms":888.66,"tokens_per_second":28.13}
+DNS Lookup Time: 0.002178 ms
+Time to Connect: 0.021684 ms
+Time to Start Transfer: 1.462531 ms
+Total Time: 1.462746 ms
+{"generated_text":" 68.1, 56.8","generation_time_ms":856.31,"tokens_per_second":29.2}
+DNS Lookup Time: 0.002060 ms
+Time to Connect: 0.021220 ms
+Time to Start Transfer: 1.503943 ms
+Total Time: 1.504147 ms
+{"generated_text":" 68.1, 56.8","generation_time_ms":971.08,"tokens_per_second":25.74}
+DNS Lookup Time: 0.002108 ms
+Time to Connect: 0.020914 ms
+Time to Start Transfer: 1.526482 ms
+Total Time: 1.527132 ms
+{"generated_text":" 68.1, 56.8","generation_time_ms":890.04,"tokens_per_second":28.09}
+DNS Lookup Time: 0.002136 ms
+Time to Connect: 0.020647 ms
+Time to Start Transfer: 1.659015 ms
+Total Time: 1.659179 ms
+{"generated_text":" 68.1, 56.8","generation_time_ms":884.32,"tokens_per_second":28.27}
+DNS Lookup Time: 0.002118 ms
+Time to Connect: 0.021361 ms
+Time to Start Transfer: 1.456771 ms
+Total Time: 1.457580 ms
+{"generated_text":" 68.1, 56.8","generation_time_ms":863.28,"tokens_per_second":28.96}
+DNS Lookup Time: 0.002257 ms
+Time to Connect: 0.019426 ms
+Time to Start Transfer: 1.485730 ms
+Total Time: 1.485936 ms
+{"generated_text":" 68.1, 56.8","generation_time_ms":892.42,"tokens_per_second":28.01}
+DNS Lookup Time: 0.001831 ms
+Time to Connect: 0.020307 ms
+Time to Start Transfer: 1.469229 ms
+Total Time: 1.469457 ms
+{"generated_text":" 68.1, 56.8","generation_time_ms":852.41,"tokens_per_second":29.33}
+DNS Lookup Time: 0.002140 ms
+Time to Connect: 0.021424 ms
+Time to Start Transfer: 1.437170 ms
+Total Time: 1.437271 ms
+{"generated_text":" 68.1, 56.8","generation_time_ms":894.9,"tokens_per_second":27.94}
+DNS Lookup Time: 0.002098 ms
+Time to Connect: 0.021112 ms
+Time to Start Transfer: 1.438150 ms
+Total Time: 1.438719 ms
+logankeenan@Logans-MacBook-Pro-2.local /Users/logankeenan/Developer/molmo-server [main]
+%
+
