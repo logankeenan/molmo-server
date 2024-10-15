@@ -30,10 +30,9 @@ def load_model():
         trust_remote_code=True
     )
 
-@app.route('/warm_up', methods=['GET'])
-def warm_up():
-    load_model()  # This should take a few minutes to load the model
-    return jsonify({"status": "Model loaded successfully."})
+with app.app_context():
+    print("Initializing model loading...")
+    load_model()
 
 @app.route('/generate_text', methods=['POST'])
 def generate_text():
@@ -92,4 +91,5 @@ def generate_text():
         return jsonify({"error": str(e)}), 500
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=5000, debug=True)
+
